@@ -1,0 +1,7 @@
+DMS-1 AUDIO ASSET BUILDER
+=========================
+
+Prepare des banques de samples ADPCM pour les projets DMS-1.
+Lancement : DMS1_AUDIO_ASSET_BUILDER.bat
+
+Le dossier produit les ressources audio attendues par le pipeline GDK et conserve les limites du moteur DMS-1.

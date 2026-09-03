@@ -1,0 +1,39 @@
+{
+  "schema": "dms-gdk-public-release-v1",
+  "release": "1.0.0",
+  "date": "2026-09-03",
+  "components": {
+    "gdk": "P1.2.10",
+    "runtime": "P1.0.9 FINAL RUNTIME LOCK",
+    "audio_core": "V0.8.6",
+    "music_player": "V0.4.10"
+  },
+  "example": "SAMPLES/07_PLATFORM_DEMO",
+  "toolchain": {
+    "bundled": false,
+    "install": "ADMIN/REPAIR_TOOLCHAIN_68000.bat",
+    "target": "TOOLCHAIN/m68k-elf"
+  },
+  "public_tools": [
+    "Audio Asset Builder",
+    "Metadata Editor",
+    "Music Player",
+    "Game Flow Builder",
+    "Actor Builder",
+    "Asset Lab",
+    "Collision Builder",
+    "Image Converter",
+    "Map Builder",
+    "Scene Builder"
+  ],
+  "excluded_from_public_v1": [
+    "TOOLCHAIN/m68k-elf binaries",
+    "ARCHIVE",
+    "DOCS_REPORTS development history",
+    "PROJECTS working tree",
+    "Audio Integration Lab / VST3",
+    "build caches and intermediate objects",
+    "private working notes"
+  ],
+  "license": "LICENSE.md"
+}

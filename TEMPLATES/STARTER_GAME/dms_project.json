@@ -1,0 +1,4 @@
+{
+  "schema": "dms-project-pipeline-v1",
+  "build": "gcc"
+}

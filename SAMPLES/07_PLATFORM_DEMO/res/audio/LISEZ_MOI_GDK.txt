@@ -1,0 +1,25 @@
+DMS-1 AUDIO ASSET BUILDER P0.1
+
+Fichiers générés
+-----------------
+audio_bank.bin       Banque ADPCM, alignée sur pages de 256 octets
+audio_sample_ids.h   IDs C stables des samples
+audio_samples.h      Déclarations + métadonnées par sample
+audio_samples.c      Table de métadonnées
+audio_manifest.json  Rapport complet de conversion
+encoded/             Fichiers ADPCM individuels de contrôle
+
+Règle AUTO
+----------
+A si durée <= 1.5 s ; B au-delà. Cette règle est seulement une proposition : la fenêtre permet de forcer A ou B.
+
+DMS-1
+-----
+ADPCM-A : 18518.518519 Hz, fixe.
+ADPCM-B : 26000 Hz pour cet export (service matériel 55555.555556 Hz).
+Les WAV stéréo sont sommés en mono avant conversion. Les données sont paddées sur pages de 256 octets.
+
+Intégration GDK
+---------------
+Inclure audio_sample_ids.h / audio_samples.h et ajouter audio_samples.c + audio_bank.bin aux ressources du projet.
+Le bootstrap GDK P1.0.7 actuellement fourni dans la console ne possède pas encore l'appel de lecture SFX individuel côté Z80 ; le Builder prépare donc les ressources et leurs déclarations exactes sans inventer une API de lecture qui n'existe pas encore.

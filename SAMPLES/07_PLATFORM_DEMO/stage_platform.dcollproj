@@ -1,0 +1,891 @@
+{
+  "format": "DMS_COLLISION_PROJECT",
+  "version": 1,
+  "app_version": "0.1",
+  "scene": {
+    "nom": "PLATFORM_TEST_ZONE",
+    "largeur_px": 4096,
+    "hauteur_px": 224,
+    "tile_size": 8,
+    "source_map": "stage_platform.dmap",
+    "source_tileset": "platform_tiles_preview.png",
+    "profil": "Plateforme"
+  },
+  "reference_image": "",
+  "zones": [
+    {
+      "id": 1,
+      "nom": "GROUND_0",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          0,
+          192
+        ],
+        [
+          560,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 2,
+      "nom": "SLOPE_UP_0",
+      "type_zone": "SOLIDE",
+      "forme": "PENTE",
+      "points": [
+        [
+          560,
+          192
+        ],
+        [
+          720,
+          152
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 3,
+      "nom": "GROUND_HIGH_0",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          720,
+          152
+        ],
+        [
+          1150,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 4,
+      "nom": "SLOPE_DOWN_0",
+      "type_zone": "SOLIDE",
+      "forme": "PENTE",
+      "points": [
+        [
+          1150,
+          152
+        ],
+        [
+          1320,
+          192
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 5,
+      "nom": "GROUND_1",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          1450,
+          192
+        ],
+        [
+          1800,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 6,
+      "nom": "SLOPE_UP_1",
+      "type_zone": "SOLIDE",
+      "forme": "PENTE",
+      "points": [
+        [
+          1800,
+          192
+        ],
+        [
+          1960,
+          128
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 7,
+      "nom": "GROUND_HIGH_1",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          1960,
+          128
+        ],
+        [
+          2300,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 8,
+      "nom": "GROUND_2",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          2480,
+          192
+        ],
+        [
+          3000,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 9,
+      "nom": "GROUND_3",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          3000,
+          160
+        ],
+        [
+          3300,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 10,
+      "nom": "GROUND_4",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          3500,
+          192
+        ],
+        [
+          4096,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 11,
+      "nom": "ONEWAY_0",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          220,
+          144
+        ],
+        [
+          360,
+          152
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 12,
+      "nom": "ONEWAY_1",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          390,
+          112
+        ],
+        [
+          500,
+          120
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 13,
+      "nom": "ONEWAY_2",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          760,
+          104
+        ],
+        [
+          920,
+          112
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 14,
+      "nom": "ONEWAY_3",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          980,
+          80
+        ],
+        [
+          1120,
+          88
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 15,
+      "nom": "ONEWAY_4",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          1500,
+          136
+        ],
+        [
+          1660,
+          144
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 16,
+      "nom": "ONEWAY_5",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          2030,
+          80
+        ],
+        [
+          2180,
+          88
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 17,
+      "nom": "ONEWAY_6",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          2560,
+          136
+        ],
+        [
+          2710,
+          144
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 18,
+      "nom": "ONEWAY_7",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          3110,
+          112
+        ],
+        [
+          3230,
+          120
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 19,
+      "nom": "ONEWAY_8",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          3570,
+          136
+        ],
+        [
+          3710,
+          144
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 20,
+      "nom": "ONEWAY_9",
+      "type_zone": "PLATEFORME_1_SENS",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          3800,
+          104
+        ],
+        [
+          3970,
+          112
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 21,
+      "nom": "WALL_0",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          1660,
+          96
+        ],
+        [
+          1690,
+          192
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 22,
+      "nom": "WALL_1",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          2720,
+          112
+        ],
+        [
+          2750,
+          192
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 23,
+      "nom": "CEILING_TUNNEL",
+      "type_zone": "SOLIDE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          1540,
+          80
+        ],
+        [
+          1710,
+          88
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 24,
+      "nom": "PIT_A",
+      "type_zone": "DANGER",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          1320,
+          208
+        ],
+        [
+          1450,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 25,
+      "nom": "PIT_B",
+      "type_zone": "DANGER",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          2300,
+          208
+        ],
+        [
+          2480,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 26,
+      "nom": "PIT_C",
+      "type_zone": "DANGER",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          3300,
+          208
+        ],
+        [
+          3500,
+          224
+        ]
+      ],
+      "joueur": true,
+      "ennemis": true,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": false,
+        "action": "AUCUNE",
+        "parametre_a": "",
+        "parametre_b": "",
+        "une_fois": false
+      }
+    },
+    {
+      "id": 27,
+      "nom": "CHECKPOINT_ALPHA",
+      "type_zone": "CHECKPOINT",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          2140,
+          64
+        ],
+        [
+          2220,
+          192
+        ]
+      ],
+      "joueur": true,
+      "ennemis": false,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": true,
+        "action": "CHECKPOINT",
+        "parametre_a": "ALPHA",
+        "parametre_b": "",
+        "une_fois": true
+      }
+    },
+    {
+      "id": 28,
+      "nom": "FINISH",
+      "type_zone": "SORTIE",
+      "forme": "RECTANGLE",
+      "points": [
+        [
+          4020,
+          80
+        ],
+        [
+          4090,
+          192
+        ]
+      ],
+      "joueur": true,
+      "ennemis": false,
+      "projectiles_joueur": false,
+      "projectiles_ennemis": false,
+      "objets": false,
+      "groupe": "MONDE",
+      "active": true,
+      "note": "",
+      "action": {
+        "active": true,
+        "action": "SET_FLAG",
+        "parametre_a": "FINISH",
+        "parametre_b": "",
+        "une_fois": true
+      }
+    }
+  ],
+  "next_id": 29,
+  "view": {
+    "zoom": 1,
+    "grid_px": 8,
+    "snap": true
+  }
+}

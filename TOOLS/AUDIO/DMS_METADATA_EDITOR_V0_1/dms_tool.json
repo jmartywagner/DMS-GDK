@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS_METADATA_EDITOR",
+  "name": "Metadata Editor",
+  "category": "AUDIO",
+  "launcher": "DMS_METADATA_EDITOR.bat",
+  "active": true
+}

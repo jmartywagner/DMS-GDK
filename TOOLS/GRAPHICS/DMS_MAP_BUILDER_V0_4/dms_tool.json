@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS_MAP_BUILDER_V0_4",
+  "name": "Map Builder",
+  "category": "GRAPHICS",
+  "launcher": "DMS_MAP_BUILDER.bat",
+  "active": true
+}

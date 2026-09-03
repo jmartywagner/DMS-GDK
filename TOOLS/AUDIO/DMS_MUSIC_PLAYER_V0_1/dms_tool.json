@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS_MUSIC_PLAYER",
+  "name": "Music Player",
+  "category": "AUDIO",
+  "launcher": "DMS_MUSIC_PLAYER.bat",
+  "active": true
+}

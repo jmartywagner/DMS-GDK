@@ -1,0 +1,11 @@
+/build/
+/build-vst3/
+/build-cmake-core/
+/build-core-tests/
+/dist/
+/backups/
+/third_party/JUCE/
+/renders/*.wav
+/roms/*.dmr
+__pycache__/
+*.pyc

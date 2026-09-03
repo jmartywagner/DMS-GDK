@@ -1,0 +1,44 @@
+{
+  "schema": "dms-project-pipeline-v1",
+  "build": "gcc",
+  "required": [
+    "res/audio/audio_bank.bin",
+    "res/stage_platform.dmap",
+    "res/stage_platform.dcoll",
+    "res/platform_tiles.dimg"
+  ],
+  "prebuild": [
+    {
+      "label": "Preparation assets plateforme",
+      "script": "tools/prepare_platform_assets.py",
+      "args": [
+        "{project}"
+      ]
+    },
+    {
+      "label": "Validation streaming / budgets",
+      "script": "tools/validate_platform_demo.py",
+      "args": [
+        "{project}"
+      ]
+    },
+    {
+      "label": "Preparation banque SFX / header",
+      "script": "tools/prepare_sfx_header.py",
+      "args": [
+        "{project}"
+      ]
+    }
+  ],
+  "postbuild": [
+    {
+      "label": "Injection banque ADPCM ABNK",
+      "script": "tools/inject_audio_bank.py",
+      "args": [
+        "{root}",
+        "{rom}",
+        "{project}/res/audio/audio_bank.bin"
+      ]
+    }
+  ]
+}

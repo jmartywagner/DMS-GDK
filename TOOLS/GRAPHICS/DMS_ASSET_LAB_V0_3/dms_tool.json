@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS_ASSET_LAB_V0_3",
+  "name": "Asset Lab",
+  "category": "GRAPHICS",
+  "launcher": "DMS_ASSET_LAB.bat",
+  "active": true
+}

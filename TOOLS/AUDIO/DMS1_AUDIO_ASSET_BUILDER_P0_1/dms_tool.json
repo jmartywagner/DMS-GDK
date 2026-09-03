@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS1_AUDIO_ASSET_BUILDER_P0_1",
+  "name": "Audio Asset Builder",
+  "category": "AUDIO",
+  "launcher": "DMS1_AUDIO_ASSET_BUILDER.bat",
+  "active": true
+}

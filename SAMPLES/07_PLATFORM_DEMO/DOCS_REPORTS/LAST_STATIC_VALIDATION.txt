@@ -1,0 +1,15 @@
+DMS-1 07_PLATFORM_DEMO V0.3 MODE GAUNTLET - OPTIMIZED STORM - STATIC VALIDATION PASS
+World: 4096x224 px (512x28 cells)
+Zones: M0 0-799 | M2 800-1499 | M1 1500-2299 | M3 2300-3299 | M4 3300-4095
+M0: 320x224, BG A+B, 80/20 sprites
+M2: 320x224, BG A+B + line-scroll, 48/12 sprites; slots 0..47 protegent gameplay essentiel
+M1: 320x224, BG A high-color, 7 palettes BG + palette sprite reservee
+M3: 320x224, BG A, 128 sprites dont 45 particules; mouvement V0.3 sans division/modulo par frame
+M4: 256x224, BG A+B, high-color; transition masquee par fondu palette 8 pas
+Objects: 45 | COLLECTIBLE=24, ENEMY=10, SPRING=3, BOOSTER=2, MOVING_PLATFORM=4, CHECKPOINT=1, PLAYER_START=1
+Collision zones: 28 | slopes=3 | one-way=10
+Sprite slots allocated: 128 max | sprite tiles preload: 290 | BG tile base: 512
+Streaming: colonnes TILEMAP uniquement; pixels des 64 tiles BG precharges au chargement.
+Audio: DMR=899328 bytes | ADPCM bank=20480 bytes | SFX=7.
+
+PASS: handoff DMS, multimode, budgets, line-scroll, storm sans modulo et contrat anti-pixel-streaming coherents.

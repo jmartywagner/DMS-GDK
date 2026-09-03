@@ -1,0 +1,36 @@
+# Python
+**/__pycache__/
+*.py[cod]
+
+# Generated project/sample builds
+PROJECTS/**/build/
+SAMPLES/**/build/
+TEMPLATES/**/build/
+
+# Local cross-toolchain (installed by ADMIN/REPAIR_TOOLCHAIN_68000.bat)
+TOOLCHAIN/m68k-elf/
+
+# Writable archives/reports
+ARCHIVE/*
+!ARCHIVE/.gitkeep
+DOCS_REPORTS/*
+!DOCS_REPORTS/current/
+DOCS_REPORTS/current/*
+!DOCS_REPORTS/current/.gitkeep
+
+# Runtime-generated material
+RUNTIME/build/audio_cache/
+RUNTIME/build/*.stamp
+!RUNTIME/build/dms_audio_core_v080.stamp
+RUNTIME/build/dms1_runtime_dir.txt
+RUNTIME/renders/
+
+# OS/editor
+Thumbs.db
+.DS_Store
+*.tmp
+*.bak
+
+# Tool launch logs
+TOOLS/**/**/*_LAST_LAUNCH.log
+TOOLS/**/**/*_STARTUP_ERROR.log

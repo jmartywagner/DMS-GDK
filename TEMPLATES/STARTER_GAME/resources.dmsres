@@ -1,0 +1,8 @@
+# DMS-GDK P1.1 integration sample
+SPRITE PLAYER res/player.dres PALETTE_BASE=2
+IMAGE STAGE_TILES res/stage_tiles.dimg
+MAP STAGE01 res/stage01.dmap TILESET=STAGE_TILES
+COLLISION STAGE01_COLL res/stage01.dcoll MAP=STAGE01
+ACTOR HERO res/hero.dactor SPRITE=PLAYER COLLISION=STAGE01_COLL
+MUSIC LEVEL1 res/stage01.dmr
+AUDIO GAME_AUDIO res/audio

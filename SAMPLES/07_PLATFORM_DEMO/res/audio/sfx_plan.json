@@ -1,0 +1,32 @@
+{
+  "samples": [
+    {
+      "path": "source/jump.wav",
+      "target": "A"
+    },
+    {
+      "path": "source/pickup.wav",
+      "target": "A"
+    },
+    {
+      "path": "source/spring.wav",
+      "target": "A"
+    },
+    {
+      "path": "source/hit.wav",
+      "target": "A"
+    },
+    {
+      "path": "source/boost.wav",
+      "target": "A"
+    },
+    {
+      "path": "source/checkpoint.wav",
+      "target": "A"
+    },
+    {
+      "path": "source/death.wav",
+      "target": "A"
+    }
+  ]
+}

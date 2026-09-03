@@ -1,0 +1,47 @@
+{
+  "format": "DMS1-AUDIO-ASSET-BUILDER-0.1",
+  "page_bytes": 256,
+  "adpcm_a_exact_rate_hz": 18518.5185,
+  "adpcm_b_rate_hz": 26000,
+  "auto_rule": "sample regression bank",
+  "bank_bytes": 15616,
+  "bank_pages": 61,
+  "samples": [
+    {
+      "id": 0,
+      "symbol": "PLAYER_SHOT",
+      "name": "factory_kick",
+      "source": "factory_kick",
+      "codec": "A",
+      "rate_hz": 18519,
+      "offset_bytes": 0,
+      "start_page": 0,
+      "end_page": 8,
+      "encoded_bytes": 2304,
+      "pages": 9,
+      "decoded_samples": 0,
+      "duration_seconds": 0.0,
+      "source_rate": 18519,
+      "source_channels": 1,
+      "source_bits": 16
+    },
+    {
+      "id": 1,
+      "symbol": "VOICE_WARNING",
+      "name": "factory_texture",
+      "source": "factory_texture",
+      "codec": "B",
+      "rate_hz": 26000,
+      "offset_bytes": 2304,
+      "start_page": 9,
+      "end_page": 60,
+      "encoded_bytes": 13312,
+      "pages": 52,
+      "decoded_samples": 0,
+      "duration_seconds": 0.0,
+      "source_rate": 26000,
+      "source_channels": 1,
+      "source_bits": 16
+    }
+  ]
+}

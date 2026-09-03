@@ -1,0 +1,4 @@
+DMS Furnace -> DMR
+Version: 0.3.1
+Target: DMS-GDK Public V1
+Runtime contract: DMR 0.1

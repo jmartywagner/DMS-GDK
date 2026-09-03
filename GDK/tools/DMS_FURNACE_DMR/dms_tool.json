@@ -1,0 +1,10 @@
+{
+  "format": "DMS_TOOL_V1",
+  "id": "dms_furnace_dmr",
+  "name": "DMR Converter",
+  "version": "0.3.1",
+  "build_id": "FURNACE-DMR-P0.3.1-DLLSAFE-20260818",
+  "entrypoint": "DMS_FURNACE_DMR.bat",
+  "enabled": true,
+  "description": "Convertit Furnace vers DMR sans reconstruire automatiquement le runtime."
+}

@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS_IMAGE_CONVERTER_V0_2",
+  "name": "Image Converter",
+  "category": "GRAPHICS",
+  "launcher": "DMS_IMAGE_CONVERTER.bat",
+  "active": true
+}

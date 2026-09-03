@@ -1,0 +1,8 @@
+{
+  "schema": "dms-tool-v1",
+  "id": "DMS_COLLISION_BUILDER_V0_1",
+  "name": "Collision Builder",
+  "category": "GRAPHICS",
+  "launcher": "DMS_COLLISION_BUILDER.bat",
+  "active": true
+}
