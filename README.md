@@ -41,6 +41,16 @@ Le depot garde la toolchain croisee en installation locale afin de rester leger.
 
 La specification complete se trouve dans `DOCS/DMS1_HARDWARE_SPEC.md`.
 
+## Composer de la musique avec Furnace
+
+Le pipeline public de composition utilise **Furnace** avec trois puces combinees dans le meme projet : **YM2414/OPZ + AY-3-8910 + YM2610**.
+
+DMS-1 utilise OPZ CH1 a CH4, les trois canaux AY et les canaux ADPCM du YM2610. Les autres canaux doivent etre masques ou retires de la vue tracker pour que l'espace de composition corresponde a la machine.
+
+L'export destine au convertisseur DMR **n'est pas un export VGM**.
+
+Guide complet : [DOCS/FURNACE_QUICKSTART.md](DOCS/FURNACE_QUICKSTART.md)
+
 ## Exemple public
 
 `SAMPLES/07_PLATFORM_DEMO` traverse les cinq modes video officiels dans un niveau unique. Le dossier contient les sources C, les ressources editables utiles, les ressources compilees et une cartouche `.dmc` preconstruite.
