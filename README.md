@@ -61,7 +61,7 @@ Guide complet : [DOCS/FURNACE_QUICKSTART.md](DOCS/FURNACE_QUICKSTART.md)
 - Runtime principal : P1.0.9 Final Runtime Lock
 - Audio Core : V0.8.6
 - Music Player : V0.4.10
-- Release publique : V1.0.0, 3 septembre 2026
+- Release publique : V1.0.0, 4 septembre 2026
 
 ## Licence
 
